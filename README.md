@@ -1,14 +1,31 @@
-## Welcome to our Project Page!
+## INVESTIGATE THE APPLICATION OF ATTENTION IN STOCK INDEX TIMESERIES PREDICTION
 
-We conducted this research to compare how popular models in Natural Language Processing tasks perform in forecasting financial time series! 
+### University: Northwester University
 
-The three models we compared are:
+### Professor: Prof. Bryan Pardo
 
-1. Encoder-Decoder LSTM
-2. Encoder-Attention-Decoder LSTM
-3. Transformer
+### Project Members & Contact:
+  Yao Gu
+  Zijian Zhao
+  Yuxiang(Alvin) Chen  Email: yuxiangchen2021@u.northwestern.edu
+
+### Github Repository
 
 Here is our [GitHub Repository](https://github.com/yaogood/stock-price-prediction)
+
+### Motivation:
+
+Stock index value prediction is a highly challenging study for both research and industry. Applying Deep Learning techniques to financial time series datasets has been a popular methodology. Existing prediction models are mostly based on complex Multi-Layer Perceptrons, Recurrent or Convolutional Neural Networks. However, Attention is a very useful mechanism as the length of the input data increases. It has been widely used in NLP tasks but underutilized in stock time-series prediction models. Thus, we built three deep learning models with different extent of application of attention to mine the same financial time series datasets and predict stock index price moves and evaluate their performances to examine how applicaiton of attention affect model perfromance.
+
+The three models we chose are: 
+  1. LSTM Encoder-Decoder Network; 
+  2. LSTM Encoder-Decoder Network with Attention; 
+  3. Transformer; 
+  
+This research problem is an important one because we can verify what extent of attention mechanism is the most appropriate for financial time series prediction and effective model construction. No research has been conducted with a focus on comparing these three models with different attention applications. The conclusion will be meaningful for future new model development. This is also a rewarding problem to solve because mining huge amounts of financial datasets can bring a lot of benefits for investing judgements. 
+
+### Methodology & Expriment
+•Describe what you’re doing in very high level terms •Describe how you built/ tested (what your dataset was, how you measured success)
 
 ### Model Tasks
 
@@ -28,13 +45,17 @@ This graph shows the candidate variables we explored for our model
 ### Model Details
 
 
+
+
 ### Results
+•Describe some results (how well it worksin no more than a paragraph)
+
 
 Result Table
 
 |    | MAPE | R | Theil U |
 | -- | ---  | - | ------- |
-| LSTM Encoder Decoder             | Content Cell  | |
-| LSTM Encoder Decoder + Attention | Content Cell  | |
-| Transformer                      |               | |
+| LSTM Encoder Decoder             |   | |
+| LSTM Encoder Decoder + Attention |  | |
+| Transformer                      |     | |
 
