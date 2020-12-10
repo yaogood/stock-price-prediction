@@ -37,7 +37,7 @@ For the baseline, we used a LSTM based model. It's a standard seq2seq architectu
 
 Our LSTM + Attention model basically has the same architecture as the LSTM model, but it has one more attention layer which can calculate the weight using the encoder output. In our model we used Bahdanau Attention. The other settings are the same as the first LSTM model, a defualt Adam optimzier and MSE criterion.
 
-Our transformer model is build based on the paper [Attention Is All You Need]({%https://arxiv.org/abs/1706.03762%}). We replace the embedding layer of NLP tasks with a 1-D convolutional layer for projecting the time-series input into a length=dmodel vector.   Our transformermodel uses 6 layers transformer encoder and 3 layers decoder,8 heads self-attention, and dmodel=512. We use an SGD optimizer with CosineAnnealing learning rate decay and MSEloss to train the model.
+Our transformer model is build based on the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762). We replace the embedding layer of NLP tasks with a 1-D convolutional layer for projecting the time-series input into a length=dmodel vector.   Our transformermodel uses 6 layers transformer encoder and 3 layers decoder,8 heads self-attention, and dmodel=512. We use an SGD optimizer with CosineAnnealing learning rate decay and MSEloss to train the model.
 
 ### Data Used
 
@@ -45,7 +45,7 @@ This graph shows the candidate variables we explored for our model.
 
 ![Input Variables](./images/variables_used.PNG)
 
-We used daily S&P500 data between 2008/07/02 and 2016/09/30. This dataset is from our referenced paper [A deep learning framework for financial time series using stacked autoencoders and long-short term memory]({%https://www.researchgate.net/publication/318991900_A_deep_learning_framework_for_financial_time_series_using_stacked_autoencoders_and_long-short_term_memory%})
+We used daily S&P500 data between 2008/07/02 and 2016/09/30. This dataset is from our referenced paper [A deep learning framework for financial time series using stacked autoencoders and long-short term memory](https://www.researchgate.net/publication/318991900_A_deep_learning_framework_for_financial_time_series_using_stacked_autoencoders_and_long-short_term_memory)
 
 ### Expriment  Method
 
@@ -65,7 +65,7 @@ Performance Metrics Comparison Table
 | LSTM Encoder Decoder + Attention | 0.0075  | 0.947 | 0.005 |
 | Transformer                      | 0.0055  | 0.980 | 0.0038 |
 
-* models are models from our referenced paper [A deep learning framework for financial time series using stacked autoencoders and long-short term memory]({%https://www.researchgate.net/publication/318991900_A_deep_learning_framework_for_financial_time_series_using_stacked_autoencoders_and_long-short_term_memory%})
+* models are models from our referenced paper [A deep learning framework for financial time series using stacked autoencoders and long-short term memory](https://www.researchgate.net/publication/318991900_A_deep_learning_framework_for_financial_time_series_using_stacked_autoencoders_and_long-short_term_memory)
 
 Daily Close Price Predictions Comparison Graph
 ![comparison graph](./images/comparison.jpg)
