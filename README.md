@@ -54,7 +54,7 @@ All 3 models are constructed to tackle the same task. They take 30 days of input
 We applied subsection prediction method \cite{subsection_method}. This method has three parts. Firstly, we used training set to train the model. Secondly, we used the validation set to verify the optimal model setting. Lastly, we used testing set to measure the performance of the model. We used 3 classical performance metrics for financial time series data - MAPE, R and Theil U
 
 
-### Results & Next Step
+### Results & Next Steps
 Performance Metrics Comparison Table
 
 |    | MAPE | R | Theil U |
