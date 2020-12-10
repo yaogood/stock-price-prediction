@@ -17,6 +17,9 @@ Welcome to our project page! It's time to pay ATTENTION.
 
 #### GitHub Repository:
   Here is our [GitHub Repository](https://github.com/yaogood/stock-price-prediction)
+  
+#### Final Paper:
+  Here is our [project final paper](https://github.com/yaogood/stock-price-prediction/blob/main/Project_Final_Report.pdf)
 
 ### Motivation:
 
