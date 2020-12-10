@@ -15,7 +15,7 @@ Welcome to our project page! It's time to pay ATTENTION.
   
   * Yuxiang(Alvin) Chen   yuxiangchen2021 at u.northwestern.edu
 
-#### Github Repository:
+#### GitHub Repository:
   Here is our [GitHub Repository](https://github.com/yaogood/stock-price-prediction)
 
 ### Motivation:
