@@ -8,6 +8,7 @@ University: Northwestern University
 Professor: Prof. Bryan Pardo
 
 Project Members & Contact Information:
+
   Yao Gu email: YaoGu2024 at u.northwestern.edu 
   
   Zijian Zhao email: zijianzhao2019 at u.northwestern.edu 
