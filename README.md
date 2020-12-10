@@ -3,19 +3,19 @@
 Welcome to our project page! It's time to pay ATTENTION.
 
 ### Project Information
-University: Northwestern University
+#### University: Northwestern University
 
-Professor: Prof. Bryan Pardo
+#### Professor: Prof. Bryan Pardo
 
-Project Members & Contact Information:
+#### Project Members & Contact Information:
 
-  Yao Gu email: YaoGu2024 at u.northwestern.edu 
+  * Yao Gu    YaoGu2024 at u.northwestern.edu 
   
-  Zijian Zhao email: zijianzhao2019 at u.northwestern.edu 
+  * Zijian Zhao   zijianzhao2019 at u.northwestern.edu 
   
-  Yuxiang(Alvin) Chen  email: yuxiangchen2021 at u.northwestern.edu
+  * Yuxiang(Alvin) Chen   yuxiangchen2021 at u.northwestern.edu
 
-Github Repository:
+#### Github Repository:
   Here is our [GitHub Repository](https://github.com/yaogood/stock-price-prediction)
 
 ### Motivation:
