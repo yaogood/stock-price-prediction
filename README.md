@@ -1,4 +1,6 @@
-## Welcome to our project page! It's time to pay ATTENTION.
+## Investigate the Application of Attention in Stock Index Time Series Prediction
+
+Welcome to our project page! It's time to pay ATTENTION.
 
 ### Project Information
 University: Northwestern University
