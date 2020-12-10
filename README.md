@@ -65,7 +65,7 @@ Performance Metrics Comparison Table
 | LSTM Encoder Decoder + Attention | 0.0075  | 0.947 | 0.005 |
 | Transformer                      | 0.0055  | 0.980 | 0.0038 |
 
-* models are models from our referenced paper [A deep learning framework for financial time series using stacked autoencoders and long-short term memory](https://www.researchgate.net/publication/318991900_A_deep_learning_framework_for_financial_time_series_using_stacked_autoencoders_and_long-short_term_memory)
+The first two models are models from our referenced paper [A deep learning framework for financial time series using stacked autoencoders and long-short term memory](https://www.researchgate.net/publication/318991900_A_deep_learning_framework_for_financial_time_series_using_stacked_autoencoders_and_long-short_term_memory)
 
 Daily Close Price Predictions Comparison Graph
 ![comparison graph](./images/comparison.jpg)
