@@ -1,17 +1,17 @@
 ## INVESTIGATE THE APPLICATION OF ATTENTION IN STOCK INDEX TIMESERIES PREDICTION
 
-### University: Northwester University
+### Project Information
+University: Northwester University
 
-### Professor: Prof. Bryan Pardo
+Professor: Prof. Bryan Pardo
 
-### Project Members & Contact:
+Project Members & Contact Information:
   Yao Gu
   Zijian Zhao
   Yuxiang(Alvin) Chen  Email: yuxiangchen2021@u.northwestern.edu
 
-### Github Repository
-
-Here is our [GitHub Repository](https://github.com/yaogood/stock-price-prediction)
+Github Repository:
+  Here is our [GitHub Repository](https://github.com/yaogood/stock-price-prediction)
 
 ### Motivation:
 
