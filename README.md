@@ -62,7 +62,7 @@ Performance Metrics Comparison Table
 
 * models are models from our referenced paper [A deep learning framework for financial time series using stacked autoencoders and long-short term memory]({%https://www.researchgate.net/publication/318991900_A_deep_learning_framework_for_financial_time_series_using_stacked_autoencoders_and_long-short_term_memory%})
 
-Daily Close Price & Predictions Comparison Graph
+Daily Close Price Predictions Comparison Graph
 ![comparison graph](./images/comparison.jpg)
 
 The three performance metrics and the graph match with each other and we conclude  that  among  the  three  models,  transformer model performs the best in predicting S&P500 index daily movement in our experiment setting. Although this doesnot mean transformer will always perform the best in any financial  time-series  prediction  tasks  (eg.   different  data  freqeuncy, input variables), the results still indicate that transformer has a high potential to be applied in financial time-series prediction tasks and should be payed more attention to in future researches on financial time series. We also plan to see whether this conclusion hold for other financial products and possibly further develop our Transformer model to generate daily adjusted investment strategy.
