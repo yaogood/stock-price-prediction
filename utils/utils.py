@@ -92,12 +92,19 @@ def MAPE(y_true, y_pred):
 
 # sklearn.metrics.r2_score(y_true, y_pred, *, sample_weight=None, multioutput='uniform_average')
 # scipy.stats.pearsonr
+# def R_score(y_true, y_pred):
+#     y_true_mean = np.mean(y_true)
+#     y_pred_mean = np.mean(y_pred)
+
+#     return np.sum( (y_true - y_true_mean) * (y_pred - y_pred_mean) ) \
+#         / np.sqrt( np.sum(((y_true - y_true_mean)**2) * ((y_pred - y_pred_mean)**2)) )
+
 def R_score(y_true, y_pred):
     y_true_mean = np.mean(y_true)
     y_pred_mean = np.mean(y_pred)
 
-    return np.sum( (y_true - y_true_mean) * (y_pred - y_pred_mean) ) \
-        / np.sqrt( np.sum(((y_true - y_true_mean)**2) * ((y_pred - y_pred_mean)**2)) )
+    return np.mean( (y_true - y_true_mean) * (y_pred - y_pred_mean) ) \
+        / np.sqrt( np.mean((y_true - y_true_mean)**2) * np.mean((y_pred - y_pred_mean)**2) )
 
 def Theil_U(y_true, y_pred):
     a = np.sqrt(np.mean((y_true - y_pred)**2))
